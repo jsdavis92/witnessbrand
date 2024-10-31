@@ -1,0 +1,97 @@
+h1 { 
+    font-size: 4rem;
+  
+
+}
+
+footer {
+    margin-top: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.hero {
+    background-image: url('/images/Witness\ Hero\ Image.jpg'); /* Add your banner image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    font-family: "Caprasimo", serif;
+}
+.hero .btn{
+    font-family: "Caprasimo", serif;
+}
+
+.product-card {
+    margin: 15px;
+}
+
+.navbar {
+     justify-content: center;
+}
+
+.navbar-brand {
+    display: inline-flex;
+}
+.navbar-brand img{ 
+  justify-content: center;
+    max-height: 100px; 
+}
+.navbar-nav {
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%; /* Full width for centering */
+}
+.nav-item {
+    margin: 0 15px; /* Spacing between menu items */
+}
+
+
+.navbar-collapse {
+ text-align: center;   
+}
+
+
+.text-uppercase {
+   font-size: small; 
+}
+
+
+/* Font Families  */
+
+/* .caprasimo-regular {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rubik-mono-one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+/*   
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 800 */
+
+/* .wix-madefor-display-uniquifier {
+  font-family: "Wix Madefor Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
