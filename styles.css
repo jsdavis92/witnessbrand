@@ -72,7 +72,26 @@ footer {
    font-size: small; 
 }
 
+.card-img-top {
+    transition: opacity 0.5s ease;
+}
 
+/* Hide the secondary image initially */
+.card-img-top.secondary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+/* Show secondary image on hover */
+.card:hover .card-img-top.primary {
+    opacity: 0;
+}
+
+.card:hover .card-img-top.secondary {
+    opacity: 1;
+}
 /* Font Families  */
 
 /* .caprasimo-regular {
