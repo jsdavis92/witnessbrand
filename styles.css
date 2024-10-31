@@ -46,6 +46,13 @@ footer {
   justify-content: center;
     max-height: 100px; 
 }
+
+.itempage-title {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+
+}
 .navbar-nav {
     justify-content:center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
