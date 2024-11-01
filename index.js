@@ -13,3 +13,9 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll('.thumbnail').forEach(el => el.classList.remove('active'));
     document.querySelector(`img[src="${imageUrl}"]`).classList.add('active');
 }
+
+function updateImage() {
+    const colorSelect = document.getElementById('colorSelect');
+    const mainImage = document.getElementById('mainImage');
+    mainImage.src = colorSelect.value;
+}
