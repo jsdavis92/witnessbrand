@@ -19,3 +19,18 @@ function updateImage() {
     const mainImage = document.getElementById('mainImage');
     mainImage.src = colorSelect.value;
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hasSeenModal = sessionStorage.getItem("welcomeModalShown");
+
+  if (hasSeenModal) return;
+
+  setTimeout(() => {
+    const modalEl = document.getElementById("welcomeModal");
+    const modal = new bootstrap.Modal(modalEl);
+
+    modal.show();
+
+    sessionStorage.setItem("welcomeModalShown", "true");
+  }, 3000);
+});

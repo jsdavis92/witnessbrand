@@ -24,6 +24,13 @@ footer {
     text-transform: uppercase;
 }
 
+.items-title {
+    background-color: black;
+    padding: 3% 3%;
+    max-width: 100%;
+    color: white;
+}
+
 .thumbnail {
     max-width: 100px;
 }
@@ -52,7 +59,7 @@ footer {
 }
 
 .itempage-title {
-    font-family: "Anton SC", sans-serif;
+    font-family: "Caprasimo", serif;
     font-weight: 800;
     font-size: 2rem;
 
