@@ -14,16 +14,15 @@ function updateImage() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const hasSeenModal = sessionStorage.getItem("welcomeModalShown");
+  const modalEl = document.getElementById("welcomeModal");
+  if (!modalEl) return;
 
-  if (hasSeenModal) return;
+  if (localStorage.getItem("welcomeModalShown")) return;
 
   setTimeout(() => {
-    const modalEl = document.getElementById("welcomeModal");
     const modal = new bootstrap.Modal(modalEl);
-
     modal.show();
 
-    sessionStorage.setItem("welcomeModalShown", "true");
+    localStorage.setItem("welcomeModalShown", "true");
   }, 3000);
 });

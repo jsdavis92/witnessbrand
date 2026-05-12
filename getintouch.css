@@ -1,0 +1,176 @@
+
+
+.hero {
+    background-image: url('/images/Witness\ Hero\ Image.jpg'); /* Add your banner image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.navbar-brand {
+    display: inline-flex;
+}
+.navbar-brand img{ 
+  justify-content: center;
+    max-height: 100px; 
+}
+
+.navbar {
+    justify-content: center;
+}
+
+.navbar-nav {
+    justify-content:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%; /* Full width for centering */
+}
+.nav-item {
+    margin: 0 15px; /* Spacing between menu items */
+}
+
+.items-title {
+    background-color: black;
+    padding: 3% 3%;
+    max-width: 100%;
+    color: white;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #111;
+  }
+  
+  /* TYPOGRAPHY SYSTEM */
+  .section-title {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  
+  .sub-title {
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  
+  /* INPUTS (clean luxury style) */
+  .minimal-input {
+    border: none !important;
+    border-bottom: 1px solid #e6e6e6 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 14px 0;
+    margin-bottom: 22px;
+    font-size: 14px;
+    background: transparent !important;
+  }
+  
+  .minimal-input:focus {
+    border-bottom: 1px solid #111 !important;
+  }
+  
+  /* BUTTON */
+  .contact-btn {
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 12px;
+    margin-top: 10px;
+  }
+  
+  /* INFO TEXT */
+  .contact-info p {
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  
+  .muted {
+    color: #777;
+  }
+  
+  /* DIVIDER */
+  .divider {
+    height: 1px;
+    background: #eee;
+    margin: 20px 0;
+  }
+  
+  /* BRAND STATEMENT */
+  .brand-statement {
+    background: #fafafa;
+  }
+  
+  .statement-title {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .statement-text {
+    max-width: 600px;
+    margin: 15px auto 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+
+  @media (max-width: 991px) {
+    .contact-section .row {
+      gap: 40px;
+    }
+  
+    .section-title {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .contact-form,
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-btn {
+      margin-top: 20px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .contact-section {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  
+    .section-title {
+      font-size: 16px;
+      letter-spacing: 1.5px;
+    }
+  
+    .minimal-input {
+      font-size: 13px;
+      padding: 12px 0;
+    }
+  
+    .contact-info p {
+      font-size: 13px;
+    }
+  
+    .brand-statement {
+      padding: 40px 20px;
+    }
+  
+    .statement-text {
+      font-size: 13px;
+      padding: 0 10px;
+    }
+  }
